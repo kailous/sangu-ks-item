@@ -1,0 +1,76 @@
+* {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+body {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+ul {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    list-style: none;
+    margin: -10px;
+    padding: 0px;
+}
+
+ul li {
+    padding: 10px;
+}
+
+img {
+    width: 200px;
+    box-shadow: 0px 198px 203px rgba(0, 0, 0, 0.06), 0px 124.366px 93.8531px rgba(0, 0, 0, 0.0283582), 0px 73.3238px 53.7006px rgba(0, 0, 0, 0.0135898), 0px 42.4138px 32.5959px rgba(0, 0, 0, 0.00579399), 0px 23.2954px 19.6404px rgba(0, 0, 0, 0.00160607);
+    transition: width 0.5s;
+    -webkit-transition: width 0.5s;
+    /* Safari */
+}
+
+img:hover {
+    box-shadow: 0px 199px 203px rgba(0, 0, 0, 0.07), 0px 92.0037px 93.8531px rgba(0, 0, 0, 0.0519173), 0px 52.6424px 53.7006px rgba(0, 0, 0, 0.0438747), 0px 31.9536px 32.5959px rgba(0, 0, 0, 0.0377964), 0px 19.2534px 19.6404px rgba(0, 0, 0, 0.0322036), 0px 10.7216px 10.9371px rgba(0, 0, 0, 0.0261253), 0px 4.61127px 4.70396px rgba(0, 0, 0, 0.0180827);
+    transition: width 1s;
+    -webkit-transition: width 1s;
+    /* Safari */
+}
+
+img:active {
+    width: 100%;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+}
+
+P {
+    font-weight: 100;
+    margin-bottom: 15px;
+    color: darkgray;
+}
+
+span {
+    font-weight: 100;
+    color: cornflowerblue;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
